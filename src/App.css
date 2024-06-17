@@ -10,11 +10,12 @@
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
 
+/* 
 .App {
   padding: 0.5rem 3.5rem;
   overflow: hidden;
   color: var(--black);
-}
+} */
 
 .button {
   background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
@@ -40,6 +41,33 @@
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto-light;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
 
 .ecommer {
   display: flex;

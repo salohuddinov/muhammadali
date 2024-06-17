@@ -10,6 +10,7 @@ import rasm5 from "../../img/rasm5.png"
 import rasm6 from "../../img/rasm6.png"
 import rasm7 from "../../img/rasm7.png"
 import rasm8 from "../../img/rasm8.png"
+import img1 from "../../img/img1.png"
 import { themeContext } from "../../Context";
 
 const Portfolio = () => {
@@ -29,35 +30,39 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={rasm1} alt="jsdnwjj" />
+          <img className="portfolo__img" src={img1} alt="jsdnwjj" />
+          <a className="ecommer" href="https://ecommer-ruddy.vercel.app/">LEARN MORE</a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="portfolo__img" src={rasm1} alt="jsdnwjj" />
           <a className="ecommer" href="https://react18-eight.vercel.app/">LEARN MORE</a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={rasm2} alt="jsdnwjj" />
+          <img className="portfolo__img" src={rasm2} alt="jsdnwjj" />
           <a className="ecommer" href="https://e-commers-1.vercel.app/">LEARN MORE</a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={rasm3} alt="jsdnwjj" />
+          <img className="portfolo__img" src={rasm3} alt="jsdnwjj" />
           <a className="ecommer" href="https://exam-6-two.vercel.app/">LEARN MORE</a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={rasm4} alt="jsdnwjj" />
+          <img className="portfolo__img" src={rasm4} alt="jsdnwjj" />
           <a className="ecommer" href="https://reactn41-ea-turkish.vercel.app/">LEARN MORE</a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={rasm5} alt="jsdnwjj" />
+          <img className="portfolo__img" src={rasm5} alt="jsdnwjj" />
           <a className="ecommer" href="https://next-js-lesson2-theta.vercel.app/">LEARN MORE</a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={rasm6} alt="jsdnwjj" />
+          <img className="portfolo__img" src={rasm6} alt="jsdnwjj" />
           <a className="ecommer" href="https://react-20-nu.vercel.app/">LEARN MORE</a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={rasm7} alt="jsdnwjj" />
+          <img className="portfolo__img" src={rasm7} alt="jsdnwjj" />
           <a className="ecommer" href="https://milliy-market.vercel.app/">LEARN MORE</a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={rasm8} alt="jsdnwjj" />
+          <img className="portfolo__img" src={rasm8} alt="jsdnwjj" />
           <a className="ecommer" href="https://react-9-ten.vercel.app/">LEARN MORE</a>
         </SwiperSlide>
       </Swiper>
